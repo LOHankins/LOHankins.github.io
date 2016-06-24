@@ -28,4 +28,13 @@ h1{
 }
 img{
 	border-radius: 50%;
+	max-width: 10%;
+	max-height: 10%;
+}
+.hero{
+	outline: 100px solid red;
+	height:100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
