@@ -26,13 +26,21 @@ h1{
 	line-height: 50px;
 	font-weight: bold;
 }
+section{
+	border-top:2px dashed #eee;
+	padding:50px 0;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
 img{
 	border-radius: 50%;
 	max-width: 10%;
 	max-height: 10%;
 }
 .hero{
-	outline: 100px solid red;
+	border:0;
+	padding:0;
 	height:100vh;
 	display: flex;
 	flex-direction: column;
